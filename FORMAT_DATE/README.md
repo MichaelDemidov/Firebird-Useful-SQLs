@@ -74,16 +74,16 @@ Remarks
 ### Formats
 
 The following character combinations are replaced:
-* D - day without leading space (e.g. '5' for 5 January)
-* DD - day with a leading space (e.g. '05' for 5 January)
-* DDD - day of the week, short name from `SHORT_DAY_NAMES`
-* DDDD - day of the week, long name from `LONG_DAY_NAMES`
-* M - month without leading space (e.g. '6' for June)
-* MM - month number with leading space (e.g. '06' for June)
-* MMM - month, short name from `SHORT_MONTH_NAMES`
-* MMMM - month, long name from `LONG_MONTH_NAMES`
-* YY - year, last 2 digits (e.g. '23' for 2023)
-* YYYY - year, 4 digits (e.g. '2023').
+* D — day without leading space (e.g. '5' for 5 January)
+* DD — day with a leading space (e.g. '05' for 5 January)
+* DDD — day of the week, short name from `SHORT_DAY_NAMES`
+* DDDD — day of the week, long name from `LONG_DAY_NAMES`
+* M — month without leading space (e.g. '6' for June)
+* MM — month number with leading space (e.g. '06' for June)
+* MMM — month, short name from `SHORT_MONTH_NAMES`
+* MMMM — month, long name from `LONG_MONTH_NAMES`
+* YY — year, last 2 digits (e.g. '23' for 2023)
+* YYYY — year, 4 digits (e.g. '2023').
 
 In one `FORMAT` string, it is possible to use as many of these substitutions as needed in any combination, and mixed with plain text, which is not replaced by anything. It is only important to ensure that this plain text does not contain the letters “M”, “D” and “Y”, otherwise they will also be replaced with parts of the date.
 
