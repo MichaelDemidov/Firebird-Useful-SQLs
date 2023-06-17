@@ -23,7 +23,7 @@ Return Value (Output Parameter)
 Syntax
 ------
 
-### Stored Procedure (Firebird 2.5+)
+### Stored Procedure (Firebird 2.1+)
 
 ``` sql
 select
