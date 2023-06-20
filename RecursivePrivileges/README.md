@@ -21,7 +21,7 @@ Query Fields
   * **U** — update,
   * **X** — execute (only for stored procedures and functions),
   * **M** — membership (for user in relation to role)
-* `CALLER_TYPE varchar(31)` — the type of the object that has privileges to this (`'procedure'`, `'trigger'`, etc.)
+* `CALLER_TYPE varchar(13)` — the type of the object that has privileges to this (`'procedure'`, `'trigger'`, etc.)
 * `CALLER varchar(31)` — the name of the object that has privileges to this
 * `LVL smallint` — nesting level (1 — direct access, 2 — chained through one subroutine, etc.)
 
