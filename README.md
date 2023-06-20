@@ -14,8 +14,8 @@ All **stored functions** presented are for Firebird version 3 and above only.
 
 Each script (represented as a stored procedure, a stored function, a pair of stored procedure and function, etc.) that solves a specific task is placed in a separate subfolder along with its own readme file.
 
-List Of Procedures And Functions
---------------------------------
+List Of Procedures, Functions, And Queries
+------------------------------------------
 
 in alphabetical order
 
