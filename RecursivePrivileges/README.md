@@ -1,5 +1,5 @@
-Recursive Privileges
-====================
+RecursivePrivileges
+===================
 
 Recursively reads from the metadata the access privileges of a given database subject (user, role, stored procedure, trigger, etc.) on various DB objects (tables, stored procedures, etc.).
 
@@ -47,4 +47,4 @@ The block has a built-in mechanism to avoid endless recursion in a situation whe
 
 ### Furthermore
 
-I had an idea to write a helper program that displays access privileges in a tree form. Maybe someday I'll make it.
+:idea: I had an idea to write a helper program that displays access privileges in a tree form and shows missing privileges (for example when a stored procedure needs to modify a table but doesn't have a permission for it). Maybe someday I'll make it.
