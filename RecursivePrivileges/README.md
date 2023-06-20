@@ -47,4 +47,4 @@ The block has a built-in mechanism to avoid endless recursion in a situation whe
 
 ### Furthermore
 
-:idea: I had an idea to write a helper program that displays access privileges in a tree form and shows missing privileges (for example when a stored procedure needs to modify a table but doesn't have a permission for it). Maybe someday I'll make it.
+:bulb: I had an idea to write a helper program that displays access privileges in a tree form and shows missing privileges (for example when a stored procedure needs to modify a table but doesn't have a permission for it). Maybe someday I'll make it.
