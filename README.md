@@ -19,10 +19,10 @@ List Of Procedures, Functions, And Queries
 
 in alphabetical order
 
-* [FORMAT_DATE](FORMAT_DATE/README.md) — format date.
+* [FORMAT_DATE](FORMAT_DATE/README.md) — format date using a template.
 * [GEN_PASSWORD](GEN_PASSWORD/README.md) — generate a random password.
 * [INT2HEX](INT2HEX/README.md) — convert an integer to a hexadecimal string.
-* [RecursivePrivileges](RecursivePrivileges/README.md) — recursively reads from the metadata the access privileges of a given database subject (user, role, stored procedure, trigger, etc.) on various DB objects (tables, stored procedures, etc.).
+* [RecursivePrivileges](RecursivePrivileges/README.md) — recursively read from the metadata the access privileges of a given database subject (user, role, stored procedure, trigger, etc.) on various DB objects (tables, stored procedures, etc.).
 * [SPLIT](SPLIT/README.md) — convert a string containing a delimited list to a table, i.e. perform the opposite task of the `list` aggregate function.
 
 For more information, please read the readme file in the corresponding subfolder.
