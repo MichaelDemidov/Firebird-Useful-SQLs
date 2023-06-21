@@ -41,9 +41,11 @@ When working with the Firebird DBMS, one difficulty arises, which is related to 
 
 You don't need administrator (e.g. `SYSDBA`) privileges to run this script. Any DB user can read the metadata (but only the administrator can change them).
 
-### Endless Recursion
+### Notes On Recursion
 
 The block has a built-in mechanism to avoid endless recursion in a situation where procedures/triggers have the privilege to execute each other, including indirectly, along a chain of several objects.
+
+:warning: Since the script is recursive, it is subject to the traditional Firebird limitation: no more than 1024 levels in the link chain. If your database contains so many relationships, you need a more powerful tool than the simple script.
 
 ### Furthermore
 
