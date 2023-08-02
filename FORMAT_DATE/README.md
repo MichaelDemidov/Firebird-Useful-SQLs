@@ -94,9 +94,8 @@ I have used English month and day names as default values for all the `..._NAMES
 * FORMAT varchar(1000) = 'DD. MM. YYYY.',
 * LONG_DAY_NAMES varchar(255) = 'Nedelja,Ponedeljak,Utorak,Sreda,Četvrtak,Petak,Subota',
 * SHORT_DAY_NAMES varchar(50) = 'Ned,Pon,Uto,Sre,Čet,Pet,Sub',
-* LONG_MONTH_NAMES varchar(255) = 'Januar,Februar,Mart,April,Maj,Juni,Juli,Avgust,Septembar,Oktobar,Novembar,Decembar',
+* LONG_MONTH_NAMES varchar(255) = 'Januar,Februar,Mart,April,Maj,Jun,Jul,Avgust,Septembar,Oktobar,Novembar,Decembar',
 * SHORT_MONTH_NAMES varchar(255) = 'Jan,Feb,Mar,Apr,Maj,Jun,Jul,Avg,Sep,Okt,Nov,Dec'
 
-| :exclamation: Warning |
-|:------------------------------------------|
-|*The first day of the week in both `LONG_DAY_NAMES` and `SHORT_DAY_NAMES` must always be Sunday, this is a Firebird PSQL limitation.*|
+> **Warning**
+> The first day of the week in both `LONG_DAY_NAMES` and `SHORT_DAY_NAMES` must always be Sunday, this is a Firebird PSQL limitation.
