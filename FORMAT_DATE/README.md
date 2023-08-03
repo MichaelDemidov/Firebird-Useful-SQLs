@@ -87,6 +87,9 @@ The following character combinations are replaced:
 
 In one `FORMAT` string, it is possible to use as many of these substitutions as needed in any combination, and mixed with plain text, which is not replaced by anything. It is only important to ensure that this plain text does not contain the letters “M”, “D” and “Y”, otherwise they will also be replaced with parts of the date.
 
+> **Important**
+> This procedure / function can only work with dates in the European Gregorian (or Julian) calendar. For more specific applications (Buddhist calendar, lunar calendar, etc.) you will have to write another procedure / function.
+
 ### Localization
 
 I have used English month and day names as default values for all the `..._NAMES` input parameters, but if English is not your default language, you can easily replace them with your native names. The same applies to the default “YYYY-MM-DD” date format. For example, in Serbia, you can use the following default values:

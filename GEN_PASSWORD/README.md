@@ -50,6 +50,7 @@ Remarks
 
 > **Warning**
 > (for beginners)
+>
 > This stored procedure/function is written more for fun and as an exercise for the mind. Of course, it should be understood that passwords cannot be stored as plain text in a database and need not be transmitted over networks.
 
 The password must meet the following criteria:
