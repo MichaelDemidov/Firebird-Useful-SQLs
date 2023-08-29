@@ -63,7 +63,7 @@ Remarks
 
 This procedure is compatible not only with Firebird 2.5, but also with the older Firebird 1.5.
 
-Why it can be useful: sometimes there are situations when you need to pass a variable (or an unknown) number of parameters to the SQL query. For example (very simplified!): given a table containing two fields, ID (code) and NAME (name). We need to select a record with certain specific codes, the number of which is not known in advance. We can express it like this:
+How it can be useful: sometimes there are situations when you need to pass a variable (or unknown) number of parameters to the SQL query. For example (very simplified!): given a table containing two fields, `ID` (code) and `NAME` (name). We need to select a subset of records with certain specific codes, the number of which is not known in advance. We can express it like this:
 
 ``` sql
 select
@@ -80,4 +80,5 @@ where
 
 Now we can pass to this SQL a string containing a list of codes separated by commas, e.g. '1,5,17'.
 
-It is important to note that this stored procedure does not parse the string properly and does not recognize escaped delimiters, as many programming languages do. Although it is not so difficult to modify it for this.
+> **Important**
+> This stored procedure does not properly parse strings with escaped delimiters and does not recognize such delimiters, as many programming languages do. Although it is not so difficult to modify it for this.
